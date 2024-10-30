@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Notiezen</title>
+		<link rel="stylesheet" href="notiezen_stylesheet.css" />
+	</head>
+	<style></style>
+	<body>
+		<div class="addNote" id="addNote_btn">+ New Note</div>
+		<h1>Note Taking App</h1>
+		<div class="over_container">
+			<div class="container" id="container"></div>
+		</div>
+
+		<dialog class="dialog_class">
+			<p style="padding: 1em">Delete Note?</p>
+			<form method="dialog">
+				<button id="delete_ja" onclick="deleteItem()">Ja</button>
+				<button id="delete_nein">Nein</button>
+			</form>
+		</dialog>
+		<script src="script.js"></script>
+	</body>
+</html>
